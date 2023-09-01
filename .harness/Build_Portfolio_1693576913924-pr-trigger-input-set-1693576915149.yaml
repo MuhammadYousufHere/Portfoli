@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Portfolio_1693576913924-pr-trigger-input-set
+  identifier: Build_Portfolio_1693576913924prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Multi
+  pipeline:
+    identifier: Build_Portfolio_1693576913924
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
