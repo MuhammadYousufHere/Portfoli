@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Portfolio_1693907384790-pr-trigger-input-set
+  identifier: Build_Portfolio_1693907384790prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Mania
+  pipeline:
+    identifier: Build_Portfolio_1693907384790
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
