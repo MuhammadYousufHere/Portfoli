@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Portfolio_1693907593094-pr-trigger-input-set
+  identifier: Build_Portfolio_1693907593094prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Manjxix
+  pipeline:
+    identifier: Build_Portfolio_1693907593094
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
