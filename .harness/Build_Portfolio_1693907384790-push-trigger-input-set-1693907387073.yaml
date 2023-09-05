@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Portfolio_1693907384790-push-trigger-input-set
+  identifier: Build_Portfolio_1693907384790pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Mania
+  pipeline:
+    identifier: Build_Portfolio_1693907384790
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
